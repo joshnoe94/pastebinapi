@@ -61,9 +61,9 @@ def paste(username, password, api_key, privacy, title, content):
                 def urls(setting="No Setting specified."):
                     if not url or raw:
                         raise ValueError("Please enter setting '1' for url and '0' for the raw url!")
-                    elif url == "1"
+                    elif url == "1":
                         url = paste.text
-                    elif raw == "0"
+                    elif raw == "0":
                         raw = (paste.text).replace("https://pastebin.com/", "https://pastebin.com/raw/"
             else:
                 print(f" [>] An error occurred : {paste.text}")
