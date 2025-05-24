@@ -21,5 +21,6 @@ setup(
   keywords="pastebinapi", 
   classifiers=classifiers,
   install_requires=["requests"],
-  packages=find_packages()
+  packages=find_packages(where="library"),
+    package_dir={"": "library"},
 )
