@@ -9,17 +9,17 @@ classifiers = [
 ]
  
 setup(
-  name="pastebin",
+  name="pastebinapi",
   version="1.0.0",
   description="This module allows to use Pastebin API very easily.",
   long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-  url="https://github.com/ksiscute/pastebinapi",  
+  url="https://github.com/joshnoe94/pastebinapi",  
   author="ksIsCute",
-  author_email="thebeast47ytbusiness@gmail.com",
+  author_email="joshnoe929@gmail.com",
   license="MIT", 
-  keywords="pastebin", 
+  keywords="pastebinapi", 
   classifiers=classifiers,
   install_requires=["requests"],
-  packages=["pastebin"]
+  packages=["pastebinapi"]
 )
